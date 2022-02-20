@@ -24,7 +24,7 @@ int main(void){
         sql::Statement *stmt;
 
         driver = get_driver_instance();
-        con = driver->connect("tcp://127.0.0.1:3306", "matthew", "9xdfduwu4w");
+        con = driver->connect("tcp://127.0.0.1:6603", "matthew", "password");
         con->setSchema("formdata");
 
         std::string insertstatment = "insert into accounts (firstname, surname, contact) values ('"+firstname+"', '"+surname+"', '"+email+"');";
