@@ -4,7 +4,7 @@
 
 int main(){
 
-    PersonSQL Mysql("FamilyTree", "tcp://127.0.0.1:3306", "matthew", "password");
+    PersonSQL Mysql("FamilyTree", "tcp://127.0.0.1:9903", "matthew", "password");
 
     Person* personList;
     personList = Mysql.getPersonList();
