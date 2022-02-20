@@ -107,5 +107,5 @@ class PersonSQL{
 
 };
 
-// "insert into Persons (LastName, FirstName, Age) values ("matthew3", "Holmes3", 25);"
+// "insert into Persons (LastName, FirstName, Age) values ("matthew", "Holmes", 12);"
 
